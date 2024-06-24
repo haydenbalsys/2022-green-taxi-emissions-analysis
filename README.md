@@ -138,6 +138,8 @@ emissions_savings_kg = emissions_savings / 1000
 print(f"Total Emissions Savings: {emissions_savings_kg:.2f} kg")
 ```
 
+# 28,873,785 KG
+
 ### Requirements
 - Python 3.6+
 - pandas
