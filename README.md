@@ -81,6 +81,7 @@ plt.ylabel('Frequency')
 plt.xlim(0, 180)
 plt.show()
 ```
+![distribution_trip_distances](https://github.com/haydenbalsys/2022-green-taxi-emissions-analysis/assets/74757315/501136aa-6fc5-4f37-a9e0-e88d15b58534)
 
 ### Trip Distance vs Duration
 Examine the relationship between trip distance and duration.
@@ -98,6 +99,7 @@ plt.show()
 
 print(df['trip_distance'].describe())
 ```
+![trip_distance_vs_duration](https://github.com/haydenbalsys/2022-green-taxi-emissions-analysis/assets/74757315/c23ba361-422d-4eb9-8269-b6139ff47c96)
 
 ### Time Series Analysis
 Analyze the number of trips by hour of the day to identify peak times.
@@ -114,6 +116,7 @@ plt.xlabel('Hour')
 plt.ylabel('Number of Trips')
 plt.show()
 ```
+![number_trips_by_hour_of_day](https://github.com/haydenbalsys/2022-green-taxi-emissions-analysis/assets/74757315/3673f3dd-d70c-4330-92a4-7de91159a82b)
 
 ### Emissions Savings with EVs
 Estimate the potential reduction in CO2 emissions if all taxis were electric vehicles.
