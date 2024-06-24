@@ -47,9 +47,7 @@ import plotly.express as px
 
 # Load the data
 df = pd.read_csv('2022_Green_Taxi_Trip_Data_20240621.csv')
-print("HEAD!")
 print(df.head())
-print("INFO!")
 print(df.info())
 
 # Convert pickup and dropoff times to datetime type
